@@ -1,6 +1,12 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2.
+
+## Features
+- Jungle is a simple e-commerce application with many levels of authentication.
+- Admin authentication for adding new categories and new products.
+- Can browse and "purchase" items as a visitor, or as a user.
+
 
 !["Jungle Home Page"](https://github.com/adrianetodesign/jungle-rails/blob/master/docs/homepage.png)
 
@@ -8,7 +14,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 !["Junge Category Page"](https://github.com/adrianetodesign/jungle-rails/blob/master/docs/categorypage.png)
 
-## Setup
+## Getting Started
 
 1. Run `bundle install` to install dependencies
 2. Create `config/database.yml` by copying `config/database.example.yml`
