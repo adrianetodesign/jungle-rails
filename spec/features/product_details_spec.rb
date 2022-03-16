@@ -19,13 +19,9 @@ RSpec.feature "Visitor navigates to product details", type: :feature, js: true d
   scenario "They see all products" do
     visit root_path
 
-    # commented out b/c it's for debugging only
-    # save_and_open_screenshot
-    within('article.product', match: :first) do
-      all('a').first.click do
-        expect(page).to have_content('Description')
-      end
-    end
+    click_link("Details »", match: :first)
+    expect(page).to have_content('Description')
+    save_screenshot
   end
 
 end
