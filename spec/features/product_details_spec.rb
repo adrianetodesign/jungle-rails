@@ -16,7 +16,7 @@ RSpec.feature "Visitor navigates to product details", type: :feature, js: true d
     end
   end
 
-  scenario "They see all products" do
+  scenario "They see a single product description" do
     visit root_path
 
     click_link("Details »", match: :first)
