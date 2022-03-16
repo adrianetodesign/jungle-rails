@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "ProductDetails", type: :feature do
+RSpec.feature "Visitor navigates to product details", type: :feature, js: true do
   # SETUP
   before :each do
     @category = Category.create! name: 'Apparel'
@@ -21,12 +21,11 @@ RSpec.feature "ProductDetails", type: :feature do
 
     # commented out b/c it's for debugging only
     # save_and_open_screenshot
-
-    find('a.btn-default').click
-
-    expect(page).to have_content('Description')
-
-    save_screenshot
+    within('article.product', match: :first) do
+      all('a').first.click do
+        expect(page).to have_content('Description')
+      end
+    end
   end
 
 end
