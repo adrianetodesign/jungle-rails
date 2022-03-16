@@ -2,11 +2,11 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-!["Jungle Home Page"](https://github.com/adrianetodesign/jungle-rails/blob/main/docs/homepage.png)
+!["Jungle Home Page"](https://github.com/adrianetodesign/jungle-rails/blob/master/docs/homepage.png)
 
-!["Jungle Product Page"](https://github.com/adrianetodesign/jungle-rails/blob/main/docs/productpage.png)
+!["Jungle Product Page"](https://github.com/adrianetodesign/jungle-rails/blob/master/docs/productpage.png)
 
-!["Junge Category Page"](https://github.com/adrianetodesign/jungle-rails/blob/main/docs/categorypage.png)
+!["Junge Category Page"](https://github.com/adrianetodesign/jungle-rails/blob/master/docs/categorypage.png)
 
 ## Setup
 
